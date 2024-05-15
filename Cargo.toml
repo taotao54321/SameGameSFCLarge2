@@ -1,0 +1,17 @@
+[package]
+name = "samegame-sfc-large-2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.83"
+arrayvec = "0.7.4"
+itertools = "0.12.1"
+log = "0.4.21"
+parse_int = "0.6.0"
+
+[dev-dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+env_logger = "0.11.3"
+indoc = "2.0.5"
+rand = "0.8.5"

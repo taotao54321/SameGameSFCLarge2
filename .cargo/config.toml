@@ -1,0 +1,11 @@
+[profile.release-lto]
+inherits = "release"
+lto = true
+codegen-units = 1
+panic = "abort"
+
+# I have these settings in ~/.cargo/config.toml
+#
+#[target.x86_64-unknown-linux-gnu]
+#linker = "clang"
+#rustflags = ["-Clink-arg=-fuse-ld=mold", "-Ctarget-cpu=native"]
